@@ -1,0 +1,90 @@
+/* Estilos para dispositivos de escritorio */
+
+body {
+    background-color: #000000;
+    overflow: hidden;
+
+    /* Imagen del logo */
+  
+    .logo {
+      position: absolute;
+      top: 130px;
+      left: 42%;
+      
+    }
+
+    .version {
+        position: absolute;
+        top: 80%;
+        right: 31%;
+        color: #b8820e;
+        
+      }
+      
+    label {
+        color: #d6951d;
+        font-family: 'Courier New', Courier, monospace
+      }
+
+    
+  }
+  
+form {
+    width: 30%;
+    height: auto;
+    margin: 20%;
+    padding: 2%;
+    margin-left: 35%;
+    border: 3px solid #b8820e;
+    background-color: #000000;
+    border-radius: 5px;
+    position: relative;
+    border-style: ridge;
+  }
+  
+input {
+    width: 99%;
+    height: 40px;
+    border: 1px solid #ccc;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 2px solid #474747;
+    border-radius: 5px;
+    border-style: groove;
+  }
+  
+input[type="submit"] {
+    width: 60%;
+    height: 45px;
+    background-color: #df8f44;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    margin-left: 20%;
+    padding: 20px, 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para dispositivos móviles */
+  
+ @media (max-width: 768px) {
+    form {
+      width: 100%;
+      min-height: 300px;
+      margin: 10%;
+    }
+  
+    input {
+      width: 250px;
+      height: 40px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+  }
+  
+  
+  
